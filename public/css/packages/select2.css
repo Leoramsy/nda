@@ -1,0 +1,28 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+ 
+
+.select2 {
+    width: 100% !important;
+}
+
+span.select2-container--bootstrap {
+
+}
+
+/*
+    SELECT2 GROUPED OPTIONS
+*/
+.select2-container--bootstrap .select2-results__group {
+    color: white;
+    font-size: 14px;
+    background-color: #f68a1f;
+}
+
+.select2-container--bootstrap .select2-results__group + ul > li {
+    font-size: 14px;
+}

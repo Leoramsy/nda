@@ -1,0 +1,54 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*  
+  
+*/
+
+.large-modal.modal-dialog {
+    width: 1000px;
+    max-width: 1000px;
+}
+
+.large-modal > .modal-content {
+    width: 1000px;
+}
+
+/*
+    RADIO
+*/
+
+div.DTE_Field_Type_radio {
+    margin: 2.5px 0px;
+}
+
+/*
+div.DTE_Field_Type_checkbox div.controls, 
+div.DTE_Field_Type_radio div.controls {
+    margin-top: 0.4em;
+}
+*/
+
+div.DTE_Field_Type_radio > div  > div.DTE_Field_InputControl > div {
+    min-height: 20px;
+}
+
+div.DTE_Field_Type_radio > div  > div.DTE_Field_InputControl > div div {
+    float: left;
+    margin-right: 15px;
+}
+
+div.DTE_Field_Type_radio > div  > div.DTE_Field_InputControl > div div > label {
+    vertical-align: inherit;
+    margin-left: 5px;
+}
+
+div.DTE_Field_Type_radio > div  > div.DTE_Field_InputControl > div > div > input[type=radio] {
+    opacity: 1;
+    width: initial;
+    font-size: initial;
+    margin: initial;
+    padding: initial;
+}
